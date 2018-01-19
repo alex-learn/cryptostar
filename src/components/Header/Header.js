@@ -18,8 +18,8 @@ import logoUrl2x from './logo-small@2x.png';
 const Welcome = visible =>
   visible ? (
     <div className={s.banner}>
-      <h1 className={s.bannerTitle}>Parsec Discovered</h1>
-      <p className={s.bannerDesc}>Own your Star. Join the Crypto-Verse!</p>
+      <h1 className={s.bannerTitle}>Galaxy HyperNova Discovered</h1>
+      <p className={s.bannerDesc}>Own your Star. Colonization NOW!</p>
     </div>
   ) : (
     ''
