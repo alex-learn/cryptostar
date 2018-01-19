@@ -12,11 +12,11 @@ import Starchart from './starchart';
 import Layout from '../../components/Layout';
 
 async function action({ fetch }) {
-  const resp = await fetch('/graphql', {
-    body: JSON.stringify({
-      query: '{news{title,link,content}}',
-    }),
-  });
+//  const resp = await fetch('/graphql', {
+//    body: JSON.stringify({
+//      query: '{news{title,link,content}}',
+//    }),
+//  });
   // const { data } = await resp.json();
   // if (!data || !data.news) throw new Error('Failed to load the news feed.');
   const version = '123456789';

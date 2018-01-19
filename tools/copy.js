@@ -28,8 +28,7 @@ async function copy() {
           engines: pkg.engines,
           dependencies: pkg.dependencies,
           scripts: {
-            prestart: 'mkdir -p data',
-            start: 'node server.js',
+            "start": 'mkdir -p data;node server.js',
           },
         },
         null,

@@ -142,7 +142,7 @@
     "clean": "babel-node tools/run clean",
     "copy": "babel-node tools/run copy",
     "bundle": "babel-node tools/run bundle",
-    "build": "npm run build:dev",
+    "build": "npm run build:prod ",
     "build:dev": "cp configs/dev/config.js src/;babel-node tools/run build ",
     "build:prod":
       "cp configs/prod/config.js src/;babel-node tools/run build --release",

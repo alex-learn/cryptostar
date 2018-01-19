@@ -23,7 +23,7 @@ class Home extends React.Component {
         <div className={s.container}>
           <h1>cryptoStar Online</h1>
           release : {this.props.version}
-          <h1>New Parsec Discovered</h1>
+          <h1>New Galaxy Discovered</h1>
         </div>
       </div>
     );
